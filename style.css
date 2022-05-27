@@ -45,6 +45,8 @@ body {
 
 .btn:active {
   transform: scale(1.1);
+  background-color: white;
+  color: black;
 }
 
 .container3 {
@@ -83,4 +85,9 @@ p {
 
 #submit:active {
   transform: scale(1.01);
+}
+
+.btnActive {
+  background-color: white;
+  color: black;
 }
