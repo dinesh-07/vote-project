@@ -13,22 +13,22 @@
     <div class="container1">
         <div class="container2">
             <div class="container3">
-                <input type="button" value="BJP" id="bjp" class="btn">
-                <p>2 Votes</p>
+                <input type="button" value="DMK" id="dmk" class="btn" onclick="counter1()" />
+                <p id="count1">0</p>
             </div>
             <div class="container3">
-                <input type="button" value="Congress" id="congress" class="btn">
-                <p>5 Votes</p>
+                <input type="button" value="Congress" id="congress" class="btn" onclick="counter2()" />
+                <p id="count2">0</p>
             </div>
             <div class="container3">
-                <input type="button" value="MNS" id="mns" class="btn">
-                <p>1 Votes</p>
+                <input type="button" value="MNS" id="mns" class="btn" onclick="counter3()" />
+                <p id="count3">0</p>
             </div>
 
         </div>
         <div class="container4">
-            <p>Total Vote:</p>
-            <input type="button" value="Submit" id="submit">
+            <p>Total Vote:<span id="totalCount"> 0</span></p>
+            <input type="button" value="Submit" id="submit" onclick="total()" />
         </div>
 
     </div>
