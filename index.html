@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container1">
-        <div class="container2">
-            <div class="container3">
-                <input type="button" value="BJP" id="bjp" class="btn">
-                <p>2 Votes</p>
-            </div>
-            <div class="container3">
-                <input type="button" value="Congress" id="congress" class="btn">
-                <p>5 Votes</p>
-            </div>
-            <div class="container3">
-                <input type="button" value="MNS" id="mns" class="btn">
-                <p>1 Votes</p>
-            </div>
-
+      <div class="container2">
+        <div class="container3">
+          <input type="button" value="BJP" id="bjp" class="btn" />
+          <span id="score1"></span>
+          <p>Votes</p>
         </div>
-        <div class="container4">
-            <p>Total Vote:</p>
-            <input type="button" value="Submit" id="submit">
+        <div class="container3">
+          <input type="button" value="Congress" id="congress" class="btn" />
+          <span id="score2"></span>
+          <p>Votes</p>
         </div>
-
+        <div class="container3">
+          <input type="button" value="MNS" id="mns" class="btn" />
+          <span id="score3"></span>
+          <p>Votes</p>
+        </div>
+      </div>
+      <div class="container4">
+        <p id="total">Total Vote:</p>
+        <input type="button" value="Submit" id="submit" />
+      </div>
+      <div>
+        <input type="button" value="Hide" id="hide" />
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
